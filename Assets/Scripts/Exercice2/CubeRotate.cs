@@ -1,6 +1,6 @@
 using System.Threading;
-using UnityEngine;
 using Cysharp.Threading.Tasks;
+using UnityEngine;
 
 public class CubeRotate : MonoBehaviour
 {
@@ -19,7 +19,7 @@ public class CubeRotate : MonoBehaviour
         {
             _cTS = new CancellationTokenSource();
             RotationCube();
-        }       
+        }
     }
 
     public void StopRotation()
